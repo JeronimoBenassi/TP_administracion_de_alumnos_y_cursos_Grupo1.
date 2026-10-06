@@ -7,7 +7,7 @@ Entidades principales:
 
 Alumno: DNI, nombre, apellido, fecha de nacimiento, email y teléfono.
 Curso: nombre, descripción, duración, cupo máximo y estado.
-Inscripción: relaciona un alumno con un curso y registra la fecha de inscripción y el estado de la inscripción.
+Inscripción: relaciona un alumno con uno o muchos cursos y registra la fecha de inscripción y el estado de la inscripción.
 
 
 Objetivos y funcionalidades previstas:
