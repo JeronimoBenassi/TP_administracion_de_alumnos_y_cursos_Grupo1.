@@ -52,5 +52,15 @@ El sistema contará con al menos los siguientes reportes:
 
 
 
+Integración de las capas del sistema:
+
+Para guardar un nuevo registro en la base de datos, las diferentes capas del sistema trabajarán de esta manera:
+
+Capa de presentación: recibe los datos ingresados por el usuario
+Capa de negocio: recibe los datos de la capa de presentación y realiza las validaciones necesarias
+Capa de acceso a datos: recibe la información validada y utiliza el repositorio correspondiente para guardar
+Base de datos: el repo utilizara Entity Framework Core para agregar el nuevo registro y guardar los cambios en la base de datos
+
+
 gestión de la información.
 
